@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOinfinity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>TOinfinity</h1>
+        <p>Celebrate with us on our special day.</p>
+    </header>
+    <!-- The Couple's Story Section -->
+    <section id="story">
+        <h2>Our Love Story</h2>
+        <p>Onome and Tega met in 2014..., and </p>
+    </section>
+
+    <!-- Wedding Details Section -->
+    <section id="details">
+        <h2>Wedding Details</h2>
+        <ul>
+            <li><strong>Date:</strong> March 22, 2025</li>
+            <li><strong>Location:</strong> The Grad, Ikeja, Lagos</li>
+        </ul>
+    </section>
+     
+
+    <!-- RSVP Section -->
+    <section id="rsvp">
+        <h2>RSVP</h2>
+        <form id="rsvpForm"> method="post" action="send_email.php"
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="attendance">Will you attend?</label>
+            <select id="attendance" name="attendance">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <button type="submit">Submit</button>
+
+    
+        </form>
+    </section>
+    <!-- Photo Gallery Section -->
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery-container">
+            <img src="photo1.jpg" alt="Engagement Photo">
+            <img src="photo2.jpg" alt="Traveling Together">
+            <img src="photo3.jpg" alt="Us">
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us at: toinfinity@gmail.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
