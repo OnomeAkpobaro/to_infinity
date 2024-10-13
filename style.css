@@ -8,7 +8,7 @@ body {
 header {
     text-align: center;
     padding: 50px;
-    background-color: blue;
+    background-color: rgba(218, 187, 153, 0.979);
     color: #fff; /* Changed to white for better contrast */
 }
 
